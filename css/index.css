@@ -1,0 +1,190 @@
+@import url(blog.css);
+@import url(about.css);
+@import url(contact.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+   width: 8px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items li{
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dammy{ 
+    color: aliceblue;
+    width: 200px;
+    padding-left: 1%;
+    font-weight: bolder;
+}
+.dam {
+    background-color:brown
+}
+nav ul li a {
+    color: aliceblue;
+}
+#love {
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    background-image: url(../images/puzzle-gb8cb906f0_1280.jpg);
+    background-size: cover;
+    color: aliceblue;
+    justify-content: end;
+}
+.welcome{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 100px;
+}
+
+.bee{
+    background-color: brown;
+    width: 69.6%;
+    padding-top: 0%;
+    padding: 10px;
+    padding-left: 29.63%;
+    color: aliceblue;
+}
+.jay{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 100px;
+    
+}
+.jiro img {
+    margin-top: 2%;
+    width: 100%;
+    align-items: center;
+    border: 5px black solid;
+    margin-left: 35%;
+    margin-bottom: 3%;
+
+}
+.falling{
+    display:grid;
+    align-items: flex-end;
+    padding-right: 30px;
+    margin-bottom: 10%;
+}
+.intimacy{ 
+    padding: 30px;
+    display: flex;
+    width: 50px;
+}
+  
+.five-signs{
+    padding-left: 5%;
+}
+#go{
+    font-weight: bolder;
+    font-style: unset;
+}
+#win{
+    padding-left: 20px;
+}
+footer{
+    width: 8px;
+}
+.footer{
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.icon img{ 
+    width: 15px;
+}
+.insta img{
+width: 15px;
+}
+.email img{
+    width: 15px;
+}
+.tweet img{
+    width: 15px;
+}
+#love{
+    text-align: en;
+}
+.falling img{
+    border: 5px black solid;
+    width: 65%;
+}
+.aim img{
+    border: 10px black solid;
+    width: 50%;
+    margin-top: 8%;
+}
+.your-partner img{
+    border: 5px black solid;
+    width: 20%;
+}
+.partner-back img{
+    border: 5px black solid;
+    width: 20%;
+}
+.inlove{
+    display:flex;
+    padding-left: 5%;
+}
+.aim{
+    padding-left: 20%;
+}
+.partner-back{
+    padding-left: 20%;
+    background-color: plum;
+    padding-top: 1%;
+}
+.deb{
+    text-align: center;
+    padding-right: 4%;
+}
+.jay{
+ background-color: plum;
+}
+.inlove{
+    background-color: plum;
+    margin-top: 1%;
+}
+.five-signs{
+    background-color: plum;
+    margin-top: 1%;
+}
+.your-partner img{
+    margin-top: 2%;   
+}
+/* If screen is Wide Enough */
+@media(min-width: 900px) {
+    body{
+        font-size: 27px;
+    }
+}
+/* Medium screen*/ 
+@media (max-width: 600px) {
+.nav-items {
+  display: grid;
+}
+.jay {
+    display: grid;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+}

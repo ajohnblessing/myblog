@@ -1,0 +1,78 @@
+@import url(index.css);
+
+nav {
+   width: 8px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    
+}
+.nav-items li{
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.ceo img{
+     width: 30%;
+     margin-left: 5%;
+     border: 5px cornflowerblue solid;
+     margin-top: 1%;
+}
+.fav p{
+    background-color: chocolate;
+    padding-left: 5%;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ceo p{
+    padding-left: 5%;
+    background-color: chocolate;
+    color: aliceblue;
+    padding-bottom: 1%;
+}
+.ceo {
+    background-color:chocolate;
+}
+.dan p{ 
+ padding-left: 5%;
+ background-color: chocolate;
+ margin-top: 1%;
+ padding-top: 7px;
+ color: aliceblue;
+ padding-top: 1%;
+}
+footer{
+    width: 8px;
+}
+.footer{
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.icon img{ 
+    width: 15px;
+}
+.insta img{
+width: 15px;
+}
+.email img{
+    width: 15px;
+}
+.tweet img{
+    width: 15px;
+}
+@media (max-width: 600px) {
+    .nav-items {
+      display: grid;
+    }
+}

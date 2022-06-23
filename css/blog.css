@@ -1,0 +1,53 @@
+@import url(index.css);
+.bloglogo img{ 
+border: 5px cornflowerblue solid;
+width: 50%;   
+margin-left: 30%;
+margin-bottom: 5%;
+}
+.fell img{
+border: 5px cornflowerblue solid;
+width: 40%;
+margin-left: 2%;
+margin-top: 4%;
+}
+.mate img{
+    border: 5px cornflowerblue solid;
+    width: 20%;
+   margin-top: 2%;
+   margin-left: 5%;
+}
+.part img{
+    border: 5px cornflowerblue solid;
+    width: 30%;
+    margin-top: 2%;
+}
+.wedd img{
+    border: 5px cornflowerblue solid;
+    width: 30%;
+    margin-top: 2%;
+}
+.jay{ 
+    padding-right: 25%;
+    background-color: burlywood;
+    font-style: oblique;
+}
+.inlove{
+    background-color: burlywood;
+    padding-bottom: 1%;
+}
+.intimate{
+    background-color: burlywood;
+    padding-left: 9%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+.five-signs{
+    background-color: burlywood;
+    padding-bottom: 1%;
+}
+.partner-back{
+    background-color: burlywood;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
